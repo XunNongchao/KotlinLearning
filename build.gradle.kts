@@ -13,6 +13,10 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("com.squareup.retrofit2:retrofit:2.6.2")
+    implementation("com.squareup.retrofit2:converter-gson:2.6.2")
+    implementation("com.google.code.gson:gson:2.8.1")
+
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
